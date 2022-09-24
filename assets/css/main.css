@@ -1265,6 +1265,26 @@ a.image {
     -ms-transform: scale(1.075);
     transform: scale(1.075); }
 
+div.vid {
+	background-color: # ;
+	margin: 0px -20px 30px -15px;
+	padding: 20px;
+	position: relative;
+	padding-bottom: 45%;
+		
+}
+
+div.vid > video{
+	position: absolute;
+	top:5%;
+	left: 5%;
+	width:90%;
+	height: 90%;
+	
+	
+	
+}
+
 /* List */
 ol {
   list-style: decimal;
