@@ -1247,10 +1247,14 @@ input[type="radio"] + label:before {
       width: 80%; }
   .image.main {
     display: block;
-    margin: 0 0 3em 0;
-    width: 80%; }
+    margin: 3em;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    	  
+     }
     .image.main img {
-      width: 70%; }
+      width: 100%; }
 
 a.image {
   overflow: hidden; }
@@ -1264,6 +1268,26 @@ a.image {
     -webkit-transform: scale(1.075);
     -ms-transform: scale(1.075);
     transform: scale(1.075); }
+
+div.vid {
+	background-color: # ;
+	margin: 0px -20px 30px -15px;
+	padding: 20px;
+	position: relative;
+	padding-bottom: 55.5%;
+		
+}
+
+div.vid > video{
+	position: absolute;
+	top:5%;
+	left: 5%;
+	width:90%;
+	height: 90%;
+	
+	
+	
+}
 
 /* List */
 ol {
@@ -1780,7 +1804,7 @@ button,
       margin: 0 0 2em 0; }
       .posts article .image img {
         display: block;
-        width: 100%; }
+        width: 60%; }
   @media screen and (min-width: 1681px) {
     .posts article:nth-child(3n + 1):before {
       display: none; }
