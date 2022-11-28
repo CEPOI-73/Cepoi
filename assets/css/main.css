@@ -1289,6 +1289,21 @@ div.vid > video{
 	
 }
 
+/* Logo */
+.navbar{
+	height:12%;
+	display: flex;
+	align-items: center;
+}
+	
+	
+ .logo  {
+	 color:;
+	 width:40%;
+	 cursor: pointer;
+	
+}
+
 /* List */
 ol {
   list-style: decimal;
